@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(236, 100%, 50%));
+    background: linear-gradient(to right, hsl(217, 100%, 55%), hsl(236, 100%, 50%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ body {
     transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-.clock::after {
+.clock::after { /* kruh uprostřed */
     content: '';
     position: absolute;
     background-color: black;
